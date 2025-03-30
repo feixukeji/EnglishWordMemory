@@ -1,0 +1,6 @@
+r=open("words0.txt","r")
+w=open("words.txt","w")
+src=r.readlines()
+w.writelines(set(src))
+r.close()
+w.close()
